@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    // File Layout
+    "target": "es2017", 
+    "module": "commonjs",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "strict": true,
+    "noEmitOnError": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*"], 
+  "exclude": ["node_modules"]
+}
